@@ -22,12 +22,49 @@ ul {
 }
 
 .header {
+  display: flex;
+  justify-content: center;
   background-color: #3b5998;
   color: white;
 }
 
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 80%;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left > .logo {
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
 .register-button {
   background-color: #42b72a;
+  padding: 5px 10px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.nabla {
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid white;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .content {
