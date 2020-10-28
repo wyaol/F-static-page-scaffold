@@ -33,7 +33,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  width: 80%;
+  width: 981px;
 }
 
 .header-left {
@@ -69,4 +69,44 @@ ul {
 
 .content {
   width: 981px;
+  margin: 0 auto;
+}
+
+.main-title {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.type-choose {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0;
+}
+
+.type-choose > div {
+  background-color: white;
+  display: flex;
+  width: 49%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 420px;
+}
+
+.type-choose-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.type-choose-title {
+  font-size: 20x;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.type-choose-text {
+  text-align: center;
 }
